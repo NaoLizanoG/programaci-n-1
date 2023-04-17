@@ -4,13 +4,14 @@
 #include<stdio.h>
 
 int main() {
-    int i, b, a=5;
+    int i, a=0;
+    printf("La tabla de multiplicar del 5 es:\n");
+    
+    for (i=0; i<=60; i=i+5){
+        
+        printf("5x%d=%d\n",a, i);
+        a=a+1;
+    }
 
-for (i=1; i=12; i++){
- 
-printf("La tabla de multiplicar del 5 es:\n");
-b=a*i;
-printf("5 x %d=%d\n", i, b );
-}
-return 0;
+    return 0;
 }
