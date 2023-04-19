@@ -7,11 +7,11 @@
  int main(){
 int i, n, resultado;
 
-printf("Ingrese el numero del que quiere saber su tabla de multiplicar");
+printf("Ingrese el numero del que quiere saber su tabla de multiplicar\n");
 scanf("%d", &n);
     for (i=0; i<=12; i++){
         resultado=i*n;
-        printf("%dx%d=%d",n, i, resultado);
+        printf("%dx%d=%d\n",n, i, resultado);
     }
     return 0;
 
