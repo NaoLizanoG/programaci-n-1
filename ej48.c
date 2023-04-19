@@ -8,7 +8,7 @@
 int i, n, resultado;
     for (i=0; i<=12; i++){
         resultado=i*n;
-        printf("%dx%d=%d", )
+        printf("%dx%d=%d",n, i, resultado);
 
     }
 
