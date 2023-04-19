@@ -23,6 +23,5 @@ scanf("%d", &n);
         printf("%dx%d=%d\n",n, i, resultado);
     }
     return 0;
-
  }
  
