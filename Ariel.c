@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
         factorial = factorial * i;
         suma = suma + factorial;
     }
+    //comentario
     printf("La sumatoria de los factoriales del numero %d es igual a %d", num, suma / num);
     return 0;
 }
